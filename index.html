@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="Css/main.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Log in</title>
+</head>
+<body>
+    <div class="container py-4">
+        <div class="row align-items-stretch">
+            <div class="col bg-img d-none d-lg-block cl-md-5 col-lg-5 col-lg-6"></div>
+            <div class="col">
+                <!-- log in -->
+                <h1 class="fw-bold py-5 py-md-2 text-center">Welcome</h1>
+
+                <form action="#">
+                    <div class="mb-4 mb-md-3">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" name="email" placeholder="example@hotmail.com">
+                    </div>
+                    <div class="mb-4 mb-md-3">
+                        <label for="password" class="form-label">Password</label>
+                        <input type="password" class="form-control" name="password" placeholder="Enter your password">
+                    </div>
+                    <div class="mb-4 form-check mb-md-3">
+                        <input type="checkbox" class="form-check-input" name="connect">
+                        <label for="connect" class="form-check-label">Keep alive</label>
+                    </div>
+
+                    <div class="d-grid">
+                        <button type="submit" class="btn btn-primary">Continue Adventure</button>
+                    </div>
+
+                    <div class="my-3 my-md-1">
+                        <span>Don't have an account yet? <a href="#">Start Adventure</a></span><br>
+                        <span><a href="#">Recover password</a></span>
+                    </div>
+                </form>
+
+                <!-- Social media log in --->
+                <div class="container w-100 my-5 ">
+                    <div class="row text-center">
+                        <div class="col-12">Continue adventure with</div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col">
+                            <button class="btn btn-outline-primary w-100 my-1">
+                                <div class="row align-items-center">
+                                    <div class="col-2 d-none d-md-block">
+                                        <img src="img/facebook.svg" width="32" alt="Facebook">
+                                    </div>
+                                    <div class="col-12 col-md-10 text-center">
+                                        Facebook
+                                    </div>
+                                </div>
+                            </button>
+                        </div>
+                        <div class="col">
+                            <button class="btn btn-outline-danger w-100 my-1">
+                                <div class="row align-items-center">
+                                    <div class="col-2 d-none d-md-block">
+                                        <img src="img/google.svg" width="32" alt="Google">
+                                    </div>
+                                    <div class="col-12 col-md-10 text-center">
+                                        Google
+                                    </div>
+                                </div>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
